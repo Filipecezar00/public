@@ -41,7 +41,7 @@ button:hover{
     background-color: #000000;
     color: white;
 }
-#conta{
+.conta{
     text-decoration: none;
     color: #000000;
     cursor: pointer;
