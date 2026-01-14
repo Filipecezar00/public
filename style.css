@@ -38,8 +38,8 @@ button{
     cursor: pointer;
 }
 button:hover{
-    background-color: #000000;
-    color: white;
+    background-color: #225a20;
+    color: rgb(255, 253, 253);
 }
 .conta{
     text-decoration: none;
