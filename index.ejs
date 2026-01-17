@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <% if (mensagem_sucesso.length>0){%>
+    <div class="success">
+        <%= mensagem_sucesso%>
+    </div>
+    <% } %>
+    
+    <% if(mensagem_erro.length>0){%>
+    <div class="erro">
+        <%=mensagem_erro%>
+    </div>
+   <%}%>
+
     <div class="login-container">
         <h2>Acessar Painel</h2> 
         <form action="/login" method="POST">
