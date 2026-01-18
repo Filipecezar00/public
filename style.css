@@ -19,7 +19,7 @@ body{
 
 .success{
     background-color: #0f4900;
-    color: #000000;
+    color: white;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
@@ -27,7 +27,7 @@ body{
 
 .erro{
     background-color: #e74c3c;
-    color: black;
+    color: white;
     padding: 5px;
     margin-bottom: 10px;
     border-radius: 5px;
